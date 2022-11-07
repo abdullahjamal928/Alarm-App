@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin: 5px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: azure;
+}
+
+.container > * {
+    flex-grow: 1;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 25px;
+}
+
+#controls > * {
+    height: 40px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+#controls > input {
+    padding-left: 50px;
+}
+
+#controls > button {
+    background-color: rgb(46, 235, 43);
+    color: white;
+    border-radius: 13px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    opacity: 1;
+}
+
+#controls > button:hover{
+    background-color: rgb(65, 189, 12);
+}
+#completed > *, #pending > * {
+    margin: 35px 0;
+}

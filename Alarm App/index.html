@@ -1,0 +1,47 @@
+<!-- Author: Abdullah Jamal
+     Roll No: 0177CS201005
+     Github: 
+     Title:  Alarm System using Browser API.
+     Topic:  Assignment - 1
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlarmApp</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+    <body bgcolor="rgb(#4589DE)">
+    <h1>Alarm App - Do not reload...!!!</h1>
+    <div class="container">
+        <div id="controls">
+            <input type="text" id="title" placeholder="Alarm Label">
+            <input type="number" i-d="sec" placeholder="Seconds">
+            <input type="number" id="min" placeholder="Minutes">
+            <input type="number" id="hrs" placeholder="Hours">
+            <input type="number" id="day" placeholder="Days">
+            <button type="button" id="add-alarm"><span>Add Alarm</span></button>
+        </div>
+        <div id="completed">
+            <h2>Completed</h2>
+            <ul>
+
+            </ul>
+        </div>
+        <div id="pending">
+            <h2>Upcoming</h2>
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="alarm.js"></script>
+</html>
